@@ -24,7 +24,7 @@ Each skill lives in its own folder under `skills/`. The `SKILL.md` file contains
 Para instalar la skill de Wethod y utilizarla tanto en Cursor como en Claude Code, ejecuta:
 
 ```bash
-npx @cursor/sdk install wethod-log-hours
+npx skills@latest add drzkn/<SKILL NAME>
 ```
 
 Este comando instalará la skill `wethod-log-hours` y te permitirá usar los triggers como "registrar horas", "imputar horas", "log hours" o "fichar" en ambos asistentes, siempre que tengas soporte para skills personalizadas.
